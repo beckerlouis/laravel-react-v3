@@ -51,7 +51,7 @@ return [
      * The package will write the generated TypeScript to this file.
      */
 
-    'output_file' => resource_path('react/types/gen/index.ts'),
+    'output_file' => resource_path('react/@gen/models/index.ts'),
 
     /*
      * When the package is writing types to the output file, a writer is used to

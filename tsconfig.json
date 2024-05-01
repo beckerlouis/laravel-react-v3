@@ -27,9 +27,24 @@
       "@vendor/*": [
         "./vendor/*"
       ],
-      "@app/*": [
+      "@/*": [
         "./resources/react/*"
       ],
+      "@gen/*": [
+        "./resources/react/@gen/*"
+      ],
+      "@types/*": [
+        "./resources/react/@types/*"
+      ],
+      "@shadcn/*": [
+        "./resources/react/@shadcn/*"
+      ],
+      "@components/*": [
+        "./resources/react/@components/*"
+      ],
+      "@app/*": [
+        "./resources/react/app/*"
+      ]
     }
   },
   "include": [

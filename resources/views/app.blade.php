@@ -4,11 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title inertia>{{ config('app.name', 'Laravel') }}</title>
+    <title inertia>{{ config('app.name', 'Laravel React V3') }}</title>
 
     @routes
     @viteReactRefresh
-    @vite(['resources/react/app.tsx', "resources/react/Pages/{$page['component']}.tsx"])
+    @vite(['resources/react/app/app.tsx', "resources/react/app/Pages/{$page['component']}.tsx"])
     @inertiaHead
 </head>
 <body>

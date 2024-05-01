@@ -7,8 +7,8 @@ const Meta = () => {
   return (
     <Head>
       <title>{seo?.title}</title>
-      <meta name="description" content={seo?.description}/>
-      <meta name="keywords" content={seo?.keywords?.map((keyword) => keyword).join(', ')}/>
+      <meta name="description" content={seo?.description} />
+      <meta name="keywords" content={seo?.keywords?.map((keyword) => keyword).join(', ')} />
     </Head>
   );
 };

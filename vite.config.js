@@ -24,8 +24,13 @@ export default ({ mode }) => {
     },
     resolve: {
       alias: {
-        '@vendor': path.resolve(__dirname, './vendor/*'),
-        '@app': path.resolve(__dirname, './resources/react'),
+        '@vendor': path.resolve(__dirname, './vendor'),
+        '@': path.resolve(__dirname, './resources/react'),
+        '@gen': path.resolve(__dirname, './resources/react/@gen'),
+        '@types': path.resolve(__dirname, './resources/react/@types'),
+        '@shadcn': path.resolve(__dirname, './resources/react/@shadcn'),
+        '@components': path.resolve(__dirname, './resources/react/@components'),
+        '@app': path.resolve(__dirname, './resources/react/app'),
       },
     },
     build: { commonjsOptions: { transformMixedEsModules: true }},
