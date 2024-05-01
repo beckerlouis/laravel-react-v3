@@ -11,8 +11,8 @@ export default ({ mode }) => {
     server: { watch: { ignored: [ '**/vendor/**', '**/storage/**' ]}},
     plugins: [
       laravel({
-        input: [ 'resources/react/app.tsx' ],
-        ssr: [ 'resources/react/ssr.tsx' ],
+        input: [ 'resources/react/app/app.tsx' ],
+        ssr: [ 'resources/react/app/ssr.tsx' ],
         refresh: true,
       }),
       react(),
